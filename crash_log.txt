@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\stash_hims\controllers\auth_controller.py", line 51, in handle_login
+    self._open_role_window(user)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Admin\PycharmProjects\stash_hims\controllers\auth_controller.py", line 59, in _open_role_window
+    from controllers.admin_controller import AdminController
+  File "C:\Users\Admin\PycharmProjects\stash_hims\controllers\admin_controller.py", line 16, in <module>
+    from utils.report_generator         import (
+    ...<2 lines>...
+    )
+  File "C:\Users\Admin\PycharmProjects\stash_hims\utils\report_generator.py", line 30, in <module>
+    _RED    = colors.HexColor("#c0392b")
+              ^^^^^^
+NameError: name 'colors' is not defined
